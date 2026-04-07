@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class AreaCircle {
+    public static void main (String[]args) {
+    Scanner scanner = new Scanner (System.in); //I inclued this line to read the user input.
+    
+    System.out.println("Type a value of area of a circle");    
+    double Area = scanner.nextDouble(); //I use the double because the variable aren't a intenger number
+    double R = (3.14159 * Area);
+    System.out.println ("The value of Area of a circle is: " + R);
+
+
+
+        }
+
+
+
+}
